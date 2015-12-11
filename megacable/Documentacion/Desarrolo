@@ -1,0 +1,143 @@
+Base de datos
+	name:admin_digital
+	user:admin_digital
+	pass:digitalizacion2014
+
+	usuario: control
+	pass:2014digital
+
+	Usuario
+		-Insertar *
+		-Consultar *
+		-Modificar *
+
+	*//// Realizar respaldos diariamente/semanalmente \\\\*
+
+Diseño de bases de datos:
+	-Equipos
+		No. serie
+		Fecha de instalación
+		Técnico
+		Suscriptor
+		Status (Entregado/No entregado)(Tabla principal -Todos los campos-)
+	-Inventarios
+		-Material recibido
+			Id
+			Fecha de recibo
+			barril
+			divisor de 2
+			divisor de 3
+			divisor de 4
+			grapa para RG-6
+			coaxial RG-6
+			coaxial RG-6 auto
+			conector RG-6
+			grapa tipo O
+			Tapon sellamuros
+			cinta ponchable
+			access
+			modem
+		-Inventario
+			Id
+			Fecha de recibo
+			barril
+			divisor de 2
+			divisor de 3
+			divisor de 4
+			grapa para RG-6
+			coaxial RG-6
+			coaxial RG-6 auto
+			conector RG-6
+			grapa tipo O
+			Tapon sellamuros
+			cinta ponchable
+			access
+			modem
+		-Material utilizado
+			Id
+			Fecha de recibo
+			barril
+			divisor de 2
+			divisor de 3
+			divisor de 4
+			grapa para RG-6
+			coaxial RG-6
+			coaxial RG-6 auto
+			conector RG-6
+			grapa tipo O
+			Tapon sellamuros
+			cinta ponchable
+			access
+			modem
+	-tecnicos
+		id
+		nombre
+		apellido
+		fecha de contratación
+		fecha de salida
+		-Inventarios
+			Material entregado
+				Id
+				Fecha de recibo
+				barril
+				divisor de 2
+				divisor de 3
+				divisor de 4
+				grapa para RG-6
+				coaxial RG-6
+				coaxial RG-6 auto
+				conector RG-6
+				grapa tipo O
+				Tapon sellamuros
+				cinta ponchable
+				access
+				modem
+			Inventario
+				Fecha de recibo
+				barril
+				divisor de 2
+				divisor de 3
+				divisor de 4
+				grapa para RG-6
+				coaxial RG-6
+				coaxial RG-6 auto
+				conector RG-6
+				grapa tipo O
+				Tapon sellamuros
+				cinta ponchable
+				access
+				modem
+		-Equipos
+			No. de serie
+			Id tecnico
+			Fecha de instalacion
+			Suscriptor
+			Status (Entregado/No entregado)(Consulta -Sin id_tecnico)
+	-Bitacoras
+		*Entre que fechas... de la semana XX/XX/2014 a la semana YY/YY/2014
+		Id
+		Id tecnico
+		No. de serie de equipo
+		Suscriptor
+		Fecha 
+		barril
+		divisor de 2
+		divisor de 3
+		divisor de 4
+		grapa para RG-6
+		coaxial RG-6 (metros inicio-final)
+		coaxial RG-6 auto (metros inicio-final)
+		conector RG-6
+		grapa tipo O
+		Tapon sellamuros
+		cinta ponchable
+		access
+		modem
+		captura (identificador auto-incrementable)
+	-Fotos trabajadores
+		id
+		nombre_foto (ruta)
+	-Fotos transporte
+		id
+		nombre_foto (ruta)	
+

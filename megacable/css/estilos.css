@@ -1,0 +1,575 @@
+/*****Estilo de Plantilla *****/
+
+body{
+	width: 1220px;
+	margin: 0 auto;
+	background: url("../img/fondo.jpg") fixed;
+}
+#contenido{
+	width: 1220px;
+	margin: 0 auto;
+	padding-bottom: 5px;
+	padding-top: 15px;
+	position: static;
+}
+
+.titulo{
+
+	font-size: 70px;
+}
+
+header{
+	text-align: center;
+	height: 200px;
+	border: 2px solid black;
+	border-radius: 10px;
+	background: white;
+	background: url("../img/fondo_login.jpg") 100%;*/
+}
+img{
+	padding: 20px;
+	float: left;
+}
+nav{
+	background-color: black;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	text-align: center;
+	height: 45px;
+	border: 2px solid black;
+	position: relative;
+	padding-top: 0;
+	border-radius: 10px;
+	color: white;
+}
+.nav{
+	margin: 0 auto;
+
+}
+.flecha{
+	display: inline-block;
+	width: 0;
+	height: 0;
+	border-top: 5px solid white;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+}
+	nav ol,ul{
+		list-style: none;
+		position: absolute;
+		display: block;
+	}
+	.nav > li{
+		position: relative;
+		float: left;
+	}
+	.nav li a{ /*Estilos de fuente*/
+		font-size: 23px;
+		background-color: black;
+		color: white;
+		text-decoration: none;
+		padding: 10px 12px;
+
+		display: block;
+	}
+		.nav li ul li a{ /*Estilos de fuente*/
+			font-size: 20px;
+			background-color: gray;
+			color: white;
+			text-decoration: none;
+			padding: 10px 12px;
+			display: block;
+		}
+
+	.nav li a:hover{
+		background-color: #434343;
+	}
+	.nav li ul{
+		display: none;
+		position: absolute;
+		min-width: 140px;
+	}
+	.nav li:hover >ul{
+		display: block;
+	}
+		.nav li ul li{
+			position: relative;
+		}
+			.nav li ul li ul{
+				right: -140px;
+				top: 0px;
+			}
+
+.user{
+	text-align: right;
+	color: white;
+}
+.nombre{
+	text-decoration: underline;
+	color: blue;
+	text-align: right;
+}
+.salir{
+	text-align: right;
+	font-size: 15px;
+}
+/***** Maquetacion principal *****/
+#central{
+	background: white;
+	background: url("../img/fondo_login.jpg") fixed;
+	padding: 30px;
+	border: 2px solid black;
+	border-radius: 10px;
+}
+
+footer{
+	padding-bottom: 3px;
+	padding-left: 10px;
+	padding-right: 10px;
+	height: 50px;
+}
+#version{
+	float: left;
+}
+
+#powered{
+	float: right;
+}
+
+/***** Estilo inicio de sesión *****/
+.iniciar_sesion{
+	text-align: center;
+	font-size: 25px;
+	padding: 0;
+	padding-bottom: 40px;
+}
+.login{ /*div de login*/
+	background: url("../img/fondo_login.jpg");
+	padding-top: 10px;
+	width: 300px;
+	height: 250px;
+	margin: 0 auto;
+	border: 2px solid black;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.form_login{
+	padding: 30px;
+}
+#tabla_login{
+	text-align: left;
+}
+
+/***** ERROR *****/
+
+.error{
+	text-align: center;
+	color: red;
+}
+.ln_error{
+	font-size: 24px;
+	color: blue;
+	text-decoration: none;
+	text-align: center;
+}
+.ln_error:hover{
+	background-color: #326EE9;
+}
+
+
+/**** Bievenido ****/
+.bienvenido h1{
+	font-size: 40px;
+
+}
+
+.bienvenido{
+	text-align: center;
+	border-bottom: 2px solid black;
+}
+
+.nav_sec{
+	text-align: center;
+	margin: 0 auto;
+	width: 500px;
+	border-bottom: 2px solid black;
+}
+.nav_sec a{
+	padding: 10px;
+	text-decoration: none;
+	text-align: center;
+	font-size: 20px;
+	display: inline-block;
+}
+.nav_sec a:hover{
+	border-radius: 10px;
+	color: black;
+	background: gray;
+}
+/****** MENU ******/
+.menu{
+	margin: 0 auto;
+	height: 300px;
+	text-align: center;
+	border-bottom: 2px solid black;
+	border-top: 2px solid black;
+}
+
+.menu ul{
+
+	padding-left: 350px;
+	margin-top: 80px;
+	font-size: 25px;
+}
+
+.menu li{
+	padding-bottom: 40px;
+}
+.menu a{
+	text-decoration: none;
+	font-family: verdana, arial;
+	color: black;
+}
+.menu a:hover{
+	background: black;
+	color:white;
+}
+
+/****** Tablas ******/
+.tabla{
+	text-align: center;
+	background: blue:;
+	font-size: 13px;
+	margin: 5px;
+	font-family: verdana,arial,helvetica,sans-serif;
+}
+
+
+.tabla img{
+
+	width: 30px;
+	height: 30px;
+	padding: 5px;
+	cursor: pointer;
+}
+.tabla img:hover{
+	transform:scale(1.5,1.5);
+	-webkit-transform:scale(1.5,1.5);
+	-moz-transform:scale(1.5,1.5);
+
+}
+
+#lista_equipos{
+	border: none;
+}
+
+
+/****** FORMULARIOS  ******/
+
+.formulario_add{
+
+	margin: 0 auto;
+	width: 200px;
+}
+.add_tecnico{
+	padding: 10px;
+	margin: 0 auto;
+	border:2px solid black;
+	border-radius: 10px;
+	width: 390px;
+}
+form{
+	margin: 0 auto;
+}
+
+
+/*****Acordeones******/
+
+.opcion{
+	display: none;
+	float: center;
+	position: absolute;
+	height: 200px;
+	width: 200px;
+	background: gray;
+	border:2px solid black;
+	border-radius: 10px;
+}
+
+.cerrar img{ 
+	width: 5px;
+	height: 5px;
+	border:none;
+	float: right;
+}
+.border{
+
+}
+.border img{
+	border-left: none;
+}
+
+.form_inv{
+	text-align: center;
+}
+
+/****** INVENTARIO ANTERIORES ******/
+
+#meses{
+	width: 65%;
+	border: 2px solid black;
+	border-radius: 10px;
+	height: 1000px;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+}
+
+#calendario{
+	width: 30%;
+	border: 2px solid black;
+	border-radius: 10px;
+	height: 1000px;
+	display: inline-block;
+}
+
+#meses span{
+	font-size: 25px;
+	padding-right: 10px;
+	margin-bottom: 30px;
+}
+
+.flecha2{
+	display: inline-block;
+	width: 0;
+	height: 0;
+	border-top: 10px solid black;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+}
+
+
+.mes{
+	width: 75%;
+	border: 2px solid black;
+	border-radius: 10px;
+	margin-top: 15px;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	margin: 0 auto;
+	height: 25px;
+	margin-top: 5px;
+	overflow: hidden;
+	transition: height 1.2s;
+	-webkit-transition: height 1.2s;
+	-moz-transition: height 1.2s;
+}
+
+.mes:hover{
+	height: auto;
+	transition: height 1.2s;
+	-webkit-transition: height 1.2s;
+	-moz-transition: height 1.2s;
+}
+.mes h4{
+	margin-bottom: 5px;
+	font-size: 18px;
+}
+
+.cuadros{
+	margin: 0 auto;
+	width: 250px;
+	border: 2px solid black;
+	font-size: 18px;
+	padding: 5px;
+	background: gray;
+	margin-top: 5px;
+
+}
+.cuadros a{
+	color: black;
+	text-decoration: none;
+	font-weight: bolder;
+}
+.cuadros:hover{
+	transform:scale(1.1,1.1);
+	-webkit-transform:scale(1.1,1.1);
+	-moz-transform:scale(1.1,1.1);
+
+}
+
+/******* PERFIL *******/
+.perfil{
+	height: 2000px;
+}
+
+#back{
+	height: 90px;
+	width: 90%;
+
+}
+#back h3{
+	text-align: left;
+	margin: 0;
+	padding: 0;
+	padding-top: 10px;
+	font-style: 25px;
+}
+#back img{
+	padding-right: 5px;
+}
+#botones{
+	height: 30px;
+	display: inline-block;
+
+	float: right;
+	position: relative;
+}
+#botones img{
+	width: 50px;
+	height: 50px;
+}
+
+#titulo_foto{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#right{
+	padding:10px;
+	vertical-align: top;
+	display: inline-block;
+	border:2px solid black;
+	border-radius: 10px;
+	width: 25%;
+	height: 250px;
+}
+
+#left{
+	padding:10px;
+	margin-bottom: 10px;
+	border:2px solid black;
+	vertical-align: top;
+	display: inline-block;
+	border-radius: 10px;
+	width: 25%;
+	height: 250px;
+}
+#left img, #right img{
+	border: 2px solid white;
+	margin: 3px;
+	background: gray;
+	border-radius: 10px;
+	padding:10px;
+}
+
+#detalles{
+	vertical-align: top;
+	display: inline-block;
+	width: 70%;
+	float: right;
+}
+#detalles img{
+	width: 30px;
+	height: 30px;
+}
+#detalles img:hover{
+	transform:scale(1.5,1.5);
+	-webkit-transform:scale(1.5,1.5);
+	-moz-transform:scale(1.5,1.5);
+}
+.tabla_perfil{
+	display: inline-block;
+	padding: 3px;
+	border: 1px solid black;
+	text-align: left;
+	margin: 5px;
+}
+
+.add_foto img{
+	width: 30px;
+	height: 30px;
+	padding: 5px;
+	cursor: pointer;
+}
+
+.add_foto img:hover{
+	transform:scale(1.5,1.5);
+	-webkit-transform:scale(1.5,1.5);
+	-moz-transform:scale(1.5,1.5);
+}
+
+.pequeno{	
+	padding: 10px;
+	display: none;
+	position: absolute;
+	height: 150px;
+	width: 310px;
+	background: gray;
+	border:2px solid black;
+	border-radius: 10px;
+}
+
+#bitacoras, #inventarios{
+	vertical-align: top;
+	text-align: center;
+	border: 3px solid black;
+	border-radius: 10px;
+	display: inline-block;
+	width:380px;
+	height: auto;
+	margin-left: 15px;
+}
+#bitacoras h4, #inventarios h4{
+	margin: 10px;
+	padding: 0px;
+}
+
+
+
+/****** BITACORAS ******/
+
+.tabla_bitacora{
+
+}
+#bitacora_div table{
+	font-size: 12px;
+	padding: 0;
+	margin: 0;
+
+}
+
+#bitacora_div{
+	background: white;
+	background: url("../img/fondo_login.jpg") 100%;
+	padding: 30px;
+	border: 2px solid black;
+	border-radius: 10px;
+	margin: 0;
+	padding: 8px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-right: 15px;
+
+}
+
+/**** PAGINA DE CONFIRMACION DE BITACORA *****/
+.otro{
+	height: 50px;
+}
+.otro  img{
+	width: 30px;
+	height: 30px;
+	padding: 5px;
+	cursor: pointer;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+}
+
+.otro img:hover{
+	transform:scale(1.5,1.5);
+	-webkit-transform:scale(1.5,1.5);
+	-moz-transform:scale(1.5,1.5);
+}

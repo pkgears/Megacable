@@ -1,0 +1,12 @@
+Exportar
+
+Exportar tablas de mysql a excel:
+
+lock table productos read;
+
+select codigo, nombre,precio
+from productos
+into outfile 'C:\\productos.cvs'
+fields terminated by ','
+enclosed by '"'
+lines terminated by '\n'

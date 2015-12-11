@@ -1,0 +1,7 @@
+Procedimientos
+
+
+set coRG6mts=fin_coRG6-inic_coRG6;
+set coRG6amts=fin_coRG6a-inic_coRG6;
+
+INSERT INTO `bitacoras`(`id_tecnico`, `no_serie`, `suscriptor`, `fecha`, `barril`, `divisor2`, `divisor3`, `grapaRG6`, `inicio_coaxialRG6`, `fin_coaxialRG6`, `coaxialRG6`, `inicio_coaxialRG6fauto`, `fin_coaxialRG6auto`, `coaxialRG6auto`, `conectorRG6`, `grapaO`, `tapon_sellamuros`, `cinta_ponchable`, `access`, `modem`) VALUES (tec,serie,suscrip,fech,barril,div2,div3,graRG6,inc_coRG6,fin_ciRG6,@coRG6mts,inic_coRG6a,fin_coRG6a.@coRG6amts,conRG6,graO,tp_sm,c_p,acc,modem)
